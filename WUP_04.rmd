@@ -46,7 +46,7 @@ WORDSUM is a Numeric variable. DEGREE is a Categorical variable.
 boxplot(WORDSUM~DEGREE,data=gssDataframe)
 ```
 
-From the box plot it appears that wordsums are different folks that have  in high scschool scores less  
+From the box plot it appears that WORDSUMS test scoores are different individuals that have  in high school scores less education compared to individuals with higher education.   
 
 ### Numerical Descriptive Results
 
@@ -56,7 +56,7 @@ From the box plot it appears that wordsums are different folks that have  in hig
 favstats(WORDSUM~DEGREE,data=gssDataframe)
 ```
 
-It appears like there is a differnce in the median of graduate students it looks like the ability on the WORDSUM category
+It appears like there is a difference in the median score of graduate students ability on the WORDSUM test scores.
 
 ## Inferential Results
 
@@ -78,7 +78,7 @@ par(mar = c(3, 15, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
-Explain that levels do not cross 0
+Based on the graph there is a difference between 
  
 # Discussion and Conclusion
 
