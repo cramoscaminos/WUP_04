@@ -46,7 +46,7 @@ WORDSUM is a Numeric variable. DEGREE is a Categorical variable.
 boxplot(WORDSUM~DEGREE,data=gssDataframe)
 ```
 
-From the box plot it appears that WORDSUMS test scoores are different individuals that have  in high school scores less education compared to individuals with higher education.   
+From the box plot it appears that WORDSUMS test scores are different individuals that have  in high school scores less education compared to individuals with higher education.   
 
 ### Numerical Descriptive Results
 
@@ -78,11 +78,11 @@ par(mar = c(3, 15, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
-Based on the graph there is a difference between 
+Based on the graph there is a difference between the average score based on the degree.  
  
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
 
-Based on the graph There is a difference between high school and and Graduate students and between less than high school and graduate. there is 
+Based on the graph there is a difference between high school and and Graduate students and between less than high school and graduate students. 
