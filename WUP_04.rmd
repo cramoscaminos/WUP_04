@@ -46,7 +46,7 @@ WORDSUM is a Numeric variable. DEGREE is a Categorical variable.
 boxplot(WORDSUM~DEGREE,data=gssDataframe)
 ```
 
-From the box plot it appears that WORDSUMS test scores are different individuals that have  in high school scores less education compared to individuals with higher education.   
+From the box plot it appears that WORDSUM test scores are different. Individuals that have a high school degree or less education scored lower compared to individuals with higher education such as a graduate degree.    
 
 ### Numerical Descriptive Results
 
