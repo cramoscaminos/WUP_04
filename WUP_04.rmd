@@ -56,7 +56,7 @@ From the box plot it appears that WORDSUM test scores are different. Individuals
 favstats(WORDSUM~DEGREE,data=gssDataframe)
 ```
 
-It appears like there is a difference in the median score of graduate students ability on the WORDSUM test scores.
+It appears that there is a difference in the median score and ability on the WORDSUM test scores of graduate students versus students with high school or less education.
 
 ## Inferential Results
 
