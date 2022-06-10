@@ -67,9 +67,8 @@ model1 <- aov(WORDSUM~DEGREE,data=gssDataframe)
 summary.aov(model1)
 ```
 
-Based on the  P-value is 0.000236 I reject the null hypothesis Ho
-because the value is less than .05.
-
+I reject the null hypothesis $H_0$ based on the P-value is 0.000236
+because the value is less than 0.05.
 
 
 ```{r}
@@ -78,11 +77,10 @@ par(mar = c(3, 15, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
-Based on the graph there is a difference between the average score based on the degree.  
+Based on the graph there is a significant difference between high school vs graduate school taht does not include 0. There is also a difference between less then high school and graduate school since neither crosses 0. 
  
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-
-Based on the graph there is a difference between high school and and Graduate students and between less than high school and graduate students. 
+We ae asked to find if there is a difference between the WORDSUM test scores of individuals varying from less than high education to graduate students. Based on the information and the P-value 0.000236, less than 0.05, I reject the null hypothosis and conclude that there is a difference between test scores of students with varying degrees.  
