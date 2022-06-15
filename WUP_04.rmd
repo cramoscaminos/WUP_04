@@ -6,7 +6,7 @@ output:
   html_document:
     df_print: paged
 ---
-
+ 
 ```{r include=FALSE,echo=FALSE}
 require(knitr)
 require(tidyverse)
