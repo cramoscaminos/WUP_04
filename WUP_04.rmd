@@ -47,7 +47,7 @@ boxplot(WORDSUM~DEGREE,data=gssDataframe)
 ```
 
 From the box plot it appears that WORDSUM test scores are different. Individuals that have a high school degree or less education scored lower compared to individuals with higher education such as a graduate degree.    
-
+ 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
